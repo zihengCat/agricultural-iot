@@ -47,15 +47,25 @@
 
 ![](./images/Raspberry-Pi-Zero-1-1755x1080.jpg)
 
-> 图： Raspberry Pi Zero W 型
+> 图：Raspberry Pi Zero W 型
 
 ![](./images/Raspberry-Pi-Zero-Location-of-Connectors-and-ICs.png)
 
-> 图： Raspberry Pi Zero W 硬件 ICs 示意图
+> 图：Raspberry Pi Zero W 硬件 ICs 示意图
 
 ### ESP8266 开发版
 
+ESP8266 内置超低功耗 Tensilica L106 32 位 RISC 处理器，CPU 时钟速度最高可达 160 MHz，支持实时操作系统 (RTOS) 和 Wi-Fi 协议栈，可将高达 80% 的处理能力留给应用编程和开发。
+
+ESP8266 专为移动设备、可穿戴电子产品和物联网应用而设计，通过多项专有技术实现了超低功耗。ESP8266EX 具有的省电模式适用于各种低功耗应用场景。
+
+![](./images/ESP-8266.jpg)
+
+> 图：ESP8266 开发版
+
 ### OV7670 摄像头模块
+
+
 
 ### DHT11 数字温湿度传感器
 
