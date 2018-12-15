@@ -29,7 +29,7 @@
     - MariaDB 关系型数据库
     - EMQ 消息中间件
     - Docker 容器引擎
-    - Kubernates 容器编排
+    - Kubernetes 容器编排
     - Airflow 数据流自动化
     - Jenkins & GitLab 持续集成
 
