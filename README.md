@@ -49,7 +49,7 @@
 
 > 图： Raspberry Pi Zero W 型
 
-![](Raspberry-Pi-Zero-Location-of-Connectors-and-ICs.png)
+![](./images/Raspberry-Pi-Zero-Location-of-Connectors-and-ICs.png)
 
 > 图： Raspberry Pi Zero W 硬件 ICs 示意图
 
