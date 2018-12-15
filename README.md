@@ -1,10 +1,43 @@
 # Agricultural IoT
 
+## TOC
+
+- 物联网（IoT）前端技术选型
+    - 概述
+    - 树莓派（Raspberry Pi）
+    - ESP8266 开发版
+    - OV7670 摄像头模块
+    - DHT11 数字温湿度传感器
+    - BMP180 数字气压传感器
+    - SSM-002 雨滴传感器
+- 大数据分析平台（Big Data）架构分析与设计
+    - 概述
+    - ElasticSearch 分布式全文搜索引擎
+    - Kibana 数据分析和可视化平台
+    - Logstash 轻量级日志搜集处理框架
+    - Hadoop 分布式大数据存储系统
+    - Spark 大数据处理通用计算引擎
+- 用户级客户端（Clients）开发
+    - 概述
+    - Web 端
+    - Android 端
+    - iOS 端
+- 云部署（Container）与流程自动化（CI）
+    - 概述
+    - 基础云服务（阿里云）
+    - Redis 内存数据库
+    - MariaDB 关系型数据库
+    - EMQ 消息中间件
+    - Docker 容器引擎
+    - Kubernates 容器编排
+    - Airflow 数据流自动化
+    - Jenkins & GitLab 持续集成
+
 ## 物联网（IoT）前端技术选型
 
 ### 概述
 
-物联网（IoT）前端节点是农业大棚基础数据获取的核心组件。检测节点包括树莓派开发板，ESP8266 开发版，温湿度传感器，气压传感器，雨滴传感器。检测节点以树莓派开发板为核心，装入与 GPIO 接口兼容的各类数据采集传感器模块吗，监测相关农业数据的实时变化。并通过外接继电器供电，外接WiFi网络实现数据传输。
+物联网（IoT）前端节点是农业大棚基础数据获取的核心组件。前端检测节点包括树莓派开发板，摄像头模组，ESP8266 开发版，温湿度传感器，气压传感器，雨滴传感器。检测节点以树莓派开发板为核心，集成与 GPIO 接口兼容的各类数据采集传感器模块实现相关农业实时数据监控，使用摄像头模组实现实时影像监测。前端检测节点通过外接继电器供电，外接 Wi-Fi 网络实现数据流传输。
 
 ### 树莓派（Raspberry Pi）
 
@@ -16,7 +49,13 @@
 
 > 图： Raspberry Pi Zero W 型
 
+![](Raspberry-Pi-Zero-Location-of-Connectors-and-ICs.png)
+
+> 图： Raspberry Pi Zero W 硬件 ICs 示意图
+
 ### ESP8266 开发版
+
+### OV7670 摄像头模块
 
 ### DHT11 数字温湿度传感器
 
@@ -24,20 +63,19 @@
 
 ### SSM-002 雨滴传感器
 
-
 ## 大数据分析平台（Big Data）架构分析与设计
 
 ### 概述
 
-### ElasticSearch 分布式搜索引擎
+### ElasticSearch 分布式全文搜索引擎
 
-### Kibana ...
+### Kibana 数据分析和可视化平台
 
-### Logstash ...
+### Logstash 轻量级日志搜集处理框架
 
-### Hadoop ...
+### Hadoop 分布式大数据存储系统
 
-### Spark 大数据分析引擎
+### Spark 大数据处理通用计算引擎
 
 
 ## 用户级客户端（Clients）开发
